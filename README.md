@@ -1,4 +1,4 @@
-## 📚 Library Management System (LMS) – Java
+## 📚<u> Library Management System (LMS) – Java
 ### Overview
 
 This is a simple Library Management System (LMS) built in Java using Object-Oriented Programming (OOP) principles and SOLID design.
@@ -13,4 +13,4 @@ The system manages:
 - Reservations (book reservations with start/end dates)
 - Recommendations (based on borrowing history – Strategy Pattern)
 
-# <u> ER - Diagram<\u>
+# <u> ER - Diagram
