@@ -17,7 +17,8 @@ The system manages:
 <img width="520" height="548" alt="library_management_ERDiagram" src="https://github.com/user-attachments/assets/cb566733-0903-4fa1-8051-9d93b2e34317" />
 
 # Project Structure
-<img width="768" height="84" alt="project_structure (1)" src="https://github.com/user-attachments/assets/0b6cd2dd-7f21-42ef-86be-b97af491118e" />
+<img width="466" height="620" alt="Project Structure" src="https://github.com/user-attachments/assets/cb0738d9-0b92-40a6-afe2-6b613b5709ac" />
+
 
 
 ## ⚙️ Features
