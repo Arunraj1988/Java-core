@@ -17,28 +17,47 @@ The system manages:
 <img width="520" height="548" alt="library_management_ERDiagram" src="https://github.com/user-attachments/assets/cb566733-0903-4fa1-8051-9d93b2e34317" />
 
 # Project Structure
-src/
- └── com/
-      └── library/
-           └── management/
-                ├── Main.java
-                ├── model/
-                │     ├── Book.java
-                │     ├── User.java
-                │     ├── Branch.java
-                │     ├── Loan.java
-                │     └── Reservation.java
-                ├── repository/
-                │     ├── BookRepository.java
-                │     ├── UserRepository.java
-                │     ├── BranchRepository.java
-                │     ├── InMemoryBookRepository.java
-                │     ├── InMemoryUserRepository.java
-                │     └── InMemoryBranchRepository.java
-                ├── service/
-                │     ├── LibraryService.java
-                │     ├── ReservationService.java
-                │     ├── RecommendationStrategy.java
-                │     └── MostBorrowedRecommendationStrategy.java
-                └── util/
-                      └── LoggerUtil.java
+<img width="768" height="84" alt="project_structure (1)" src="https://github.com/user-attachments/assets/0b6cd2dd-7f21-42ef-86be-b97af491118e" />
+
+
+## ⚙️ Features
+
+### 1. ✅ Book Management
+- Add, update, delete books
+- Search by title, author, or ISBN
+- Track book availability
+
+### 2.✅ User/Patron Management
+- Register patrons with name, email, phone
+- Update patron info
+- Borrowing history tracked
+
+### 3.✅ Branch & Inventory
+- Manage multiple library branches
+- Assign books to branches with available copies
+
+### 4.✅ Loan Management
+- Checkout & return books
+- Track checkout date, due date, return date
+- Overdue detection
+- Fine calculation (per day)
+
+### 5.✅ Reservation System
+- Reserve books with start & end dates
+- Cancel or fulfill reservations
+
+### 6.✅ Recommendation System
+- Recommend books using Strategy Pattern
+  `Example: most borrowed books`
+
+### 7.✅ Logging
+- Logging of important actions using LoggerUtil
+
+##  🛠️ How to Run
+### 1.Clone the repo:
+git clone https://github.com/your-username/library-management-system.git
+cd library-management-system
+### 2.Compile:
+javac -d out $(find src -name "*.java")
+### 3.Run:
+java -cp out com.library.management.Main
