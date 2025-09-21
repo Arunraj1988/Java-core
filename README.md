@@ -60,9 +60,5 @@ In terminal,run:
 git clone https://github.com/Arunraj1988/Java-core.git
 ### 2.Locate the Library Management System directory:
 cd Java-core/"Library Management System"
-### 3. Inspect the file
-Check what .java files are there, what package structure, whether there is a Main class or something with a public static void main(String[] args) to run.
-
-javac -d out $(find src -name "*.java")
 ### 3.Run:
-java -cp out com.library.management.Main
+*.java file : com.library.management.Main
